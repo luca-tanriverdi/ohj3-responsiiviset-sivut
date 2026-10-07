@@ -2,7 +2,8 @@
 
 :root {
     --tausta: #eeeeee;
-    --teksti: #2b3c4d;
+    --teksti: #0f3050;
+    --teksti-vaalea: #2f6397;
 }
 
 * {
@@ -23,19 +24,25 @@ main {
 }
 
 section {
-    padding: 20px;
     max-width: 900px;
     width: 70%;
-    margin: 20px 100px;
+    margin: 50px auto;
 }
 
 .showcase {
-    max-width: 65%;
+    background-color: var(--teksti-vaalea);
     font-size: 1.2em;
     padding-top: 50px;
-    height: 150px;
+    width: 100%;
+    height: 200px;
 }
 
+.showcase > div {
+    color: #eeeeee;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
 header {
     background-color: var(--tausta);
     padding: 20px;

@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root {
-    --tausta: #d4f2f350;
+    --tausta: #eeeeee;
     --teksti: #333333;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 body {

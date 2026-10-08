@@ -19,9 +19,17 @@ body {
     color: var(--teksti);
 }
 
+header {
+    background-color: var(--tausta-tumma);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border: 2px solid var(--teksti);
+}
 main {
     font-size: 1.0em;
     line-height: 1.5em;
+    padding-top: 80px;
 }
 
 section {
@@ -42,9 +50,9 @@ section {
     line-height: 1.5px;
 }
 
-.showcase > div {
+.showcase div {
     font-size: 1.5em;
-    color: #eeeeee;
+    color: var(--tausta);
     max-width: 100%;
     text-align: center;
     margin: 0 auto;
@@ -61,25 +69,45 @@ section {
     font-style: italic;
     line-height: 1.5em;
 }
+
 h2 {
     font-size: 2.0em;
     color: var(--teksti-vaalea);
     margin-top: 30px;
 }
 
-header {
-    display: block;
-    background-color: var(--tausta);
+header nav {
+    background-color: var(--teksti-vaalea);
+    color: var(--tausta);
     text-align: center;
-    border: 1px solid var(--teksti);
-    padding: 20px;
-    background-color: var(--tausta-tumma);
 }
 
+header nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--tausta);
+    margin: 0;
+    font-size: 1.2em;
+    padding: 0.5em;
+}
 
+header nav a:hover {
+    background-color: var(--tausta);
+    color: var(--teksti-vaalea);
+    border-radius: 5px;
+}
+
+header span {
+    display: block;
+    text-align: center;
+    font-size: 1.0em;
+    background-color: var(--teksti-vaalea);
+    color: var(--tausta-vaalea);
+}
 footer {
     text-align: center;
     padding: 20px;
-    background-color: var(--tausta-tumma);
-    color: var(--teksti-vaalea);
+    background-color: var(--teksti-vaalea);
+    color: var(--tausta);
+    border: 2px solid var(--teksti);
 }

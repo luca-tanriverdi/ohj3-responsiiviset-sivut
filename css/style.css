@@ -4,6 +4,7 @@
     --tausta: #eeeeee;
     --teksti: #0f3050;
     --teksti-vaalea: #2f6397;
+    --tausta-tumma: #dddddd;
 }
 
 * {
@@ -19,40 +20,66 @@ body {
 }
 
 main {
-    font-size: 1.5em;
-    line-height: 1.4em;
+    font-size: 1.0em;
+    line-height: 1.5em;
 }
 
 section {
-    max-width: 900px;
+    font-size: 1.0em;
+    max-width: 1000px;
     width: 70%;
-    margin: 50px auto;
+    margin: 20px auto;
+}
+.content {
+    font-size: 1.0em;
 }
 
 .showcase {
     background-color: var(--teksti-vaalea);
-    font-size: 1.2em;
-    padding-top: 50px;
+    padding: 60px 0;
     width: 100%;
     height: 200px;
+    line-height: 1.5px;
 }
 
 .showcase > div {
+    font-size: 1.5em;
     color: #eeeeee;
     max-width: 100%;
     text-align: center;
     margin: 0 auto;
 }
-header {
-    background-color: var(--tausta);
-    padding: 20px;
-    text-align: center;
-    border-bottom: 1px solid #ccc;
+
+.ingressi {
+    font-size: 1.4em;
+    font-style: italic;
+    line-height: 1.5em;
 }
+
+.rakenne {
+    font-size: 1.4em;
+    font-style: italic;
+    line-height: 1.5em;
+}
+h2 {
+    font-size: 2.0em;
+    color: var(--teksti-vaalea);
+    margin-top: 30px;
+}
+
+header {
+    display: block;
+    background-color: var(--tausta);
+    text-align: center;
+    border: 1px solid var(--teksti);
+    padding: 20px;
+    background-color: var(--tausta-tumma);
+}
+
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: var(--tausta);
-    border-top: 1px solid #ccc;
+    background-color: var(--tausta-tumma);
+    color: var(--teksti-vaalea);
 }

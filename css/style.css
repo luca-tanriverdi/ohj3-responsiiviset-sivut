@@ -20,6 +20,7 @@ body {
 }
 
 header {
+    color: var(--tausta);
     background-color: var(--tausta-tumma);
     position: fixed;
     width: 100%;
@@ -104,6 +105,7 @@ header span {
     background-color: var(--teksti-vaalea);
     color: var(--tausta-vaalea);
 }
+
 footer {
     text-align: center;
     padding: 20px;
